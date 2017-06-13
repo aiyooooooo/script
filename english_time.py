@@ -9,8 +9,8 @@ import logging
 login_url = 'http://222.195.158.194/index.php'
 temp_url = 'http://222.195.158.194/template/loggingajax.php?whichURL=/login/hponlinetime.php'
 
-username = '16020031092'
-password = 'aisa2012'
+username = raw_input("学号")
+password = raw_input("密码")
 Input2 = '登 录'
 
 login_data = { 'username' : username , 'password' : password , 'Input2' : Input2 }
